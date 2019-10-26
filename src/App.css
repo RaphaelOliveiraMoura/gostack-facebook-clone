@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+boyd,
+#root {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3e3e3e;
+  font-size: 14px;
+}
+
+.header {
+  background: #4a90e2;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 26px;
+}
+
+.header .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .profile span {
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 65%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.post-list .post {
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  background: #ffffff;
+  margin-bottom: 16px;
+}
+
+.post-list .post .profile {
+  display: flex;
+  align-items: center;
+}
+
+.post-list .post .profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.post-list .post .profile .description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.post-list .post .profile .description span {
+  font-size: 16px;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+.post-list .post .profile .description p {
+  font-size: 13px;
+  color: #9a9a9a;
+}
+
+.post-list .post > p {
+  margin-top: 15px;
+  margin-bottom: 41px;
+}
+
+.post-list .comment {
+  display: flex;
+}
+
+.post-list .comment img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.post-list .comment p {
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+.post-list .comment strong {
+  margin-right: 6px;
+}
